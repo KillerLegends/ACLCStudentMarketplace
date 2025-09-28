@@ -3,20 +3,19 @@ h1{
    
     padding: 20px;
     position: relative;
-    left: -400px;
-    bottom: -50px
+    font-family: 'Sans', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    text-shadow: 0 2px 8px #000000;
 }
 
 body{
-    background-color: lightgray;
+    background-color: #1D29AF;
     text-align: center;
     margin: auto;
    
 }
 
-header{
-    background-color: #fb5631
-}
 
 label{
     place-items: center;
@@ -25,7 +24,7 @@ label{
     padding: 100px;
     width: 200px;
     position: relative;
-    top: -10px;
+    top: -30px;
     
 }
 
@@ -44,4 +43,11 @@ input[type="search"]{
 button{
     position: relative;
     top: -20px;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url(/fonts/SourceSerif4-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
