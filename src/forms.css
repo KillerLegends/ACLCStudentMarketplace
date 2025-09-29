@@ -1,0 +1,84 @@
+*{
+    background: #1D29AF;
+}
+
+
+body{
+    text-align: center;
+    margin: auto;
+    font-family: 'Sans', sans-serif;
+}
+
+input[type="text"], 
+input[type="password"],
+input[type="email"],
+input[type="number"]{
+    font-size: 16px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    position: relative;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+input[type="submit"]{
+    
+    position: relative;
+    bottom: -150px;
+    width: 200px;
+    height: 94px;
+    background-color: #CD7116;
+    font-size: 28px;
+    border-radius: 15px;
+    animation-name: RtoR;
+    animation-duration: 5s;
+}
+
+
+label{
+    color: white;;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+h1{
+    color: white;
+   
+    padding: 20px;
+    position: relative;
+    font-family: 'Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 2px 8px #000000;
+}
+
+
+h2{
+    color: white;
+    top: -25px;
+    padding: 20px;
+    position: relative;
+    font-family: 'Sans', sans-serif;
+    text-align: center;
+    text-shadow: 0 2px 8px #000000;
+}
+
+a{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url(/fonts/SourceSerif4-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+

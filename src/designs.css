@@ -22,8 +22,7 @@ label{
     color: white;
     font-size: 14px;
    
-  
-    
+
 }
 
 input[type="number"]{
@@ -60,18 +59,21 @@ input[type="submit"]{
     top: -100px;
     font-size: 25px;
 }
-#s_hightxt,#collegetxt, input[type="radio"]{
+
+select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
     position: relative;
-    top: -70px;
-    padding-right: 50px;
-
-
+    top: -50px;
 }
 
-#s_hightxt, #collegetxt{
-    font-size: 20px;
-    
-}
+
+
 div{
     position: relative;
     bottom: -250px;
