@@ -1,12 +1,13 @@
 h1{
     color: white;
-   
     padding: 20px;
-    position: relative;
+    position: relative;    
     font-family: 'Sans', sans-serif;
     font-size: 50px;
-    text-align: center;
+    top: -280px;
+    left: -350px;
     text-shadow: 0 2px 8px #000000;
+    line-height: 1.5;
 }
 
 body{
@@ -46,9 +47,9 @@ button{
 }
 
 img{
-   width: 265px; 
-   height:309px; 
-   transform: translate(1007px,597px);
+   width: 250px; 
+   height:295px; 
+   transform: translate(650px,650px);
   
 }
 
@@ -57,4 +58,17 @@ img{
     src: url(/fonts/SourceSerif4-VariableFont_opsz\,wght.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+input[type="submit"]{
+    
+    position: relative;
+    bottom: -120px;
+    left: -400px;
+    width: 200px;
+    height: 119px;
+    background-color: white;
+    font-size: 28px;
+    border-radius: 15px;
+
 }
