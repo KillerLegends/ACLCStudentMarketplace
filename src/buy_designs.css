@@ -1,24 +1,36 @@
 body{
     background-color: #1D29AF;
-    text-align: center;
     margin: auto;
-   
 }
 
 img{
-   width: 99px; 
-   height:115px; 
-   transform: translate(-850px,16px);
+   width: 60px; 
+   height: 60px; 
   
 }
 
+
+
+div{
+  display:flex;
+  background-color: #D9D9D9;
+  height: 108px;
+  width: 100%;
+  justify-content: center;
+  
+
+}
+
 h1{
-    color: #FFFF;
-    text-align: center;
-  font-size: 64px;  
-  text-shadow: 0 2px 8px #000000;
-    padding: 20px;
-    position:relative;
-    top: -115px;
+    color: black;
+    font-size: 20px;
     
+} 
+
+
+#search-bar{
+  width: 847px;
+  height: 43px;
+  
+  
 }
