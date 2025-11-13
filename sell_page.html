@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACLC Buy Market</title>
+    <link rel="stylesheet" href="src/sell_design.css">
+</head>
+
+<body>
+  <div class="container">
+
+      <!--Header -->
+      <img src="assets/ACLC_logonobg.png" alt="ACLC Logo">
+      <h1>
+         ACLC <br> Marketplace
+      </h1>
+      <input type="search" id="search-bar" placeholder="Search item">
+    </div>
+
+    <div class="sell_container">
+    <h2>Upload a Product Image</h2>
+
+    <form id="uploadForm">
+        
+        <input type="file" id="fileInput" name="productImage" accept="image/*" hidden>
+        
+        <label for="fileInput" class="upload-label">
+            Choose File
+        </label>
+        <br>
+        <span id="fileName">No file chosen</span>
+
+        <br><br>
+
+        <button type="submit" class="submit-btn">Upload</button>
+    </form>
+
+    <div id="statusMessage"></div>
+    </div>
+   
+
+    </div>
+</body>
+</html>
