@@ -106,5 +106,12 @@ div{
 }
 
 
+img{
+    position:relative;
+    width: 500px;
+    height: 500px;
+    left: -650px;
+    top: -35px;
 
+}
 
