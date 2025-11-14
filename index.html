@@ -2,27 +2,37 @@
 
 <html lang="en">
 <link rel="stylesheet" href="src/designs.css">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACLC Market</title>
-    <head>
-       <h1>Student Marketplace</h1>
+        <head>
+            <title>ACLC Market</title> 
+         </head>
         <body>
-            <div>
-            <form action="register_form.html" method="get">
-                <label id="studentid_txt">Enter your Student ID</label> <br>
-                <input type="number" id="studentid_databases" name="studentid_databases" placeholder="Enter your Student ID.."> <br>
-                <input type="submit" value="ACLC Enter"> <br> <br>
-                <label id="s_leveltxt">Select your Student Level:</label> <br>
-                <select id="s_level" name="s_level">
-                    <option value =" " disabled selected>Select your Student Level..</option>
-                    <option value="seniorhigh">Senior High School</option>
-                    <option value="seniorhigh">College Level</option>
-                </select>
-            </form>
+
+     <div class="flex_con">
+        <div class="header">
+            <div class="sidebar"> 
+                <img src="assets/aclclogo.jpg" id="aclclogo" alt="">
+             </div>
+                <h1>ACLC Marketplace</h1>
         </div>
+                    <div class="ID_Container">
+                         <p id="id-verf">ID Verification</p>
+                         <div class="Form_id">
+                            <form action="POST">
+                            <p id="Enter_id">Enter your Student ID</p>
+                            <input type="number" id="studentid_databases" name="studentid_databases" placeholder="Enter your Student ID.."> <br>
+                             <select id="s_level" name="s_level">
+                             <option value =" " disabled selected>Select your Student Level..</option>
+                             <option value="seniorhigh">Senior High School</option>
+                            <option value="seniorhigh">College Level</option>
+                            </select>
+                            </form>
+                        </div>
+                            <input type="submit" id="submit_id" value="ENTER ID"> <br> <br>
+                     </div>
+    </div>
         </body>
-    </head>
-    <link rel="stylesheet" href="styles.css">
+   
+    
 </html>
