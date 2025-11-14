@@ -1,104 +1,6 @@
 *{
     font-family: 'Sans';
 }
-<<<<<<< HEAD
-=======
-h1{
-    color: #FFFF;
-    text-align: center;
-    position: relative;
-    
-    font-size: 50px;  
-    text-shadow: 0 2px 8px #000000;
-    
-    
-}
-
-
-body{
-    background-color: #1D29AF;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-label{
-    color: white;
-    font-size: 14px;
-   
-
-}
-
-.ID_Container{
-    background-color: #5076ab;
-    width: 1000px;
-    height: 1000px;
-    margin: 20px;
-    text-align: center;
-    align-content: center;
-   
-}
-
-input[type="number"]{
-    width: 377px;
-    height: 60px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    top: -50px; 
-    position: relative;
-
-}
-
-input[type="submit"]{
-    position: relative;
-    bottom: -250px;
-    width: 200px;
-    height: 94px;
-    background-color: #CD7116;
-    font-size: 28px;
-    border-radius: 15px;
-}
-#studentid_txt{
-    position: relative;
-    top: -380px;
-    font-size: 36px;
-    
-}
-
-#s_leveltxt{
-    position: relative;
-    top: -100px;
-    font-size: 25px;
-}
-
-select {
-  width: 15%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-    position: relative;
-    top: -50px;
-}
-
-
-
-div{
-    position: relative;
-    bottom: -250px;
-    
-    
-    font-family: 'Sans', sans-serif;
-}
-
->>>>>>> c7fda64410ce9d8d934ce98d8500a13fa88780d2
 
 @font-face {
     font-family: 'Sans';
@@ -179,7 +81,7 @@ p{
     min-height: 357px;
     background-color: #5076ab;
     border-radius: 28px;
-    gap: 10px;
+    gap: 25px;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 28px;
@@ -211,14 +113,7 @@ p{
 }
 
 
-img{
-    position:relative;
-    width: 500px;
-    height: 500px;
-    left: -650px;
-    top: -35px;
 
-}
 
 
 
